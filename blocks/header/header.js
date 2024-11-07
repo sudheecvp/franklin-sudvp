@@ -145,6 +145,16 @@ export default async function decorate(block) {
       });
     });
   }
+  //sudheesh search icon changes
+  const navTools = nav.querySelector('.nav-tools');
+  if(navTools) {
+    navTools.querySelectorAll(':scope .default-content-wrapper > p > span > img ').forEach((navTool) => {
+      navTool.addEventListener('click', () => {
+        console.log('clicked');
+        window.location.href = '/search';
+      });
+    });
+  }
 
   // hamburger for mobile
   const hamburger = document.createElement('div');
