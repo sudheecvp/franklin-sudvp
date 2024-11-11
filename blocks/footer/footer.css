@@ -1,17 +1,48 @@
 footer {
   background-color: var(--black-color);
   font-size: var(--body-font-size-xs);
-  color:white
+  color:white;
 }
 
 footer .footer > div {
   margin: auto;
   max-width: 1200px;
   padding: 40px 24px 24px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 footer .footer p {
   margin: 0;
+}
+
+footer .footer-nav ul{
+  display: flex;
+}
+
+footer .footer-brand {
+  width: 150px;
+}
+
+footer .footer-brand .icon img {
+  width: 128px;
+  height: auto;
+}
+
+footer .footer-nav ul li {
+  width: 128px;
+  height: auto;
+  display: block;
+}
+
+footer .footer-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .footer-desc a {
+  color: white;
+  text-decoration: underline;
 }
 
 @media (width >= 900px) {
