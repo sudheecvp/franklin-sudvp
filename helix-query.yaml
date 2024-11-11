@@ -1,7 +1,7 @@
 version: 1
 indices:
   sudvpmaqarticleindex:
-    target: /article/index.json
+    target: /custom-index.json
     properties:
       title:
         select: head > meta[property="og:title"]
