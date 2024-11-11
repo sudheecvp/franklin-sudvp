@@ -1,9 +1,7 @@
 version: 1
 indices:
-  enrichment:
-    target: /enrichment/enrichment.json
-    include:
-      - '**/magazine/**'
+  sudvpmaqarticleindex:
+    target: /article/index.json
     properties:
       title:
         select: head > meta[property="og:title"]
