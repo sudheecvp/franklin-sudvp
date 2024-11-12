@@ -136,7 +136,7 @@ export default async function decorate(block) {
     navBrand.querySelectorAll(':scope .default-content-wrapper > p > span > img ').forEach((navImage) => {
       navImage.addEventListener('click', () => {
         console.log('clicked');
-        window.location.href = '/search';
+        window.location.href = '/';
       });
     });
     
