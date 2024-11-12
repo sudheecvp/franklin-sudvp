@@ -30,9 +30,9 @@ footer .footer-brand .icon img {
 }
 
 footer .footer-nav ul li {
-  width: 128px;
   height: auto;
   display: block;
+  padding-right: 30px;
 }
 
 footer .footer-nav a {
