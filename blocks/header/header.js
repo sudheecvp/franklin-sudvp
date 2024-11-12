@@ -132,6 +132,16 @@ export default async function decorate(block) {
     brandLink.closest('.button-container').className = '';
   }
 
+  if(navBrand){
+    navBrand.querySelectorAll(':scope .default-content-wrapper > p > span > img ').forEach((navImage) => {
+      navImage.addEventListener('click', () => {
+        console.log('clicked');
+        window.location.href = '/search';
+      });
+    });
+    
+  }
+
   const navSections = nav.querySelector('.nav-sections');
   if (navSections) {
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
