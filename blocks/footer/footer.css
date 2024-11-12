@@ -45,6 +45,11 @@ footer .footer-desc a {
   text-decoration: underline;
 }
 
+footer .footer-desc p {
+  margin-top: 15px
+}
+
+
 @media (width >= 900px) {
   footer .footer > div {
     padding: 40px 32px 24px;
