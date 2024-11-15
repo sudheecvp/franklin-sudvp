@@ -28,10 +28,58 @@
 
 .avatars > div {
   width: 400px;
-  border: 1px solid #ddd;
-  border-color: green;
+  /*border: 1px solid #ddd;
+  border-color: green;*/
 }
 
 .avatars picture {
   text-align: center;
+}
+
+.avatars .icon img {
+  height: 100%;
+  width: 100%;
+}
+
+.avatars .socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.avatars .socials img {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #ddd;
+  border-color: green;
+
+}
+
+.avatars a.button {
+  display: flex;
+  padding: 0%;
+  background-color: greenyellow;
+  border-radius: 0%;
+}
+
+@media (max-width: 1024px) {
+  .avatar-item {
+      flex: 1 1 calc(33.33% - 20px); /* 3 items per row */
+  }
+}
+
+/* Media Query for mobile devices (e.g., 480px to 768px) */
+@media (max-width: 768px) {
+  .avatar-item {
+      flex: 1 1 calc(50% - 20px); /* 2 items per row */
+  }
+}
+
+/* Media Query for small mobile devices (e.g., less than 480px) */
+@media (max-width: 480px) {
+  .avatar-item {
+      flex: 1 1 100%; /* 1 item per row */
+  }
 }
