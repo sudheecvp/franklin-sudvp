@@ -1,13 +1,37 @@
-.sociallinks  {
+.avatars {
   display: flex;
-  margin: 0px;
-  
+  flex-grow: 1;
 }
 
+.avatars img {
+    border-radius: 50%;
+    height: 164px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 164px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 
+}
 
-.sociallinks > ul > li img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+.avatars h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.avatars h5 {
+  font-size: 13px;
+  text-align: center;
+}
+
+.avatars > div {
+  width: 400px;
+  border: 1px solid #ddd;
+  border-color: green;
+}
+
+.avatars picture {
+  text-align: center;
 }
