@@ -1,0 +1,21 @@
+        /* Basic CSS for styling */
+
+    .magazine > div  {
+        display :flex;
+    }
+
+    .magazine > div img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .magazine > div div:last-child{
+        padding-left: 25px;
+        background-color: #ebebeb;
+    }  
+
+    .magazine .button-container .button {
+        background-color: yellow;
+        color: black;
+        border-radius: 0em;
+      }    
